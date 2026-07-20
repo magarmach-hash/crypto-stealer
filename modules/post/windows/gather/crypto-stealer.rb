@@ -100,7 +100,6 @@ class MetasploitModule < Msf::Post
           text = nil
 
           if data.is_a?(Hash)
-            # FIXED: iterate over hash values (keyed by timestamps), not format numbers
             data.each_value do |entry|
               if entry.is_a?(Hash) && entry['Text']
                 text = entry['Text']
