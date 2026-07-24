@@ -10,7 +10,6 @@ Detects and Swap cryptocurrency addresses and passwords on Windows targets.
 ```bash
 mkdir -p ~/.msf4/modules/post/windows/gather/
 
-# Save clipswap.rb to:
 ~/.msf4/modules/post/windows/gather/crypto-stealer.rb
 
 msfconsole
